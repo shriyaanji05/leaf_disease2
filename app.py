@@ -54,3 +54,4 @@ elif(app_mode=="DISEASE RECOGNITION"):
         #Reading Labels
         class_name = ['Early_Blight', 'Healthy', 'Late_Blight']
         st.success("Model is Predicting it's a {}".format(class_name[result_index]))
+        
